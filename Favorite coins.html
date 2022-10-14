@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorit Coins</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 3%;
+        width: 100%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/">
+          <img src="duck.png" alt="Logo" width="40" height="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Favorite coins.html"
+                >Favorit Coins</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1622790698141-94e30457ef12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80/300*300"
+              class="card-img-top"
+              alt="Etheryum"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ethereum</h5>
+              <p class="card-text">
+                At its core, Ethereum is a decentralized global software
+                platform powered by blockchain technology. It is most commonly
+                known for its native cryptocurrency, ether (ETH).
+              </p>
+              <a
+                href="https://coinmarketcap.com/currencies/ethereum/"
+                class="btn btn-primary"
+                target="_blank"
+                >More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1629877522005-f0405c013d78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80/300*300"
+              class="card-img-top"
+              alt="Bitcoin"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bitcoin</h5>
+              <p class="card-text">
+                Bitcoin is a digital currency which operates free of any central
+                control or the oversight of banks or governments. Instead it
+                relies on peer-to-peer software and cryptography.
+              </p>
+              <a
+                href="https://coinmarketcap.com/currencies/bitcoin/"
+                class="btn btn-primary"
+                target="_blank"
+                >More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1622538425721-3996753e747d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80/300*300"
+              class="card-img-top"
+              alt="Cardano"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cardano</h5>
+              <p class="card-text">
+                Cardano (ticker symbol, ADA) is a decentralized proof of stake
+                (PoS) blockchain designed to be a more efficient alternative to
+                proof of work (PoW) networks.
+              </p>
+              <a
+                href="https://coinmarketcap.com/currencies/cardano/"
+                target="_blank"
+                class="btn btn-primary"
+                >More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
